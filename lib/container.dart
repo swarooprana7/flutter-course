@@ -19,7 +19,10 @@ class MyContainer_App extends StatelessWidget {
           child: const Center(
             child: Text(
               'Hii Swaroop!',
-              style: TextStyle(fontSize: 25),
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                  backgroundColor: Colors.pinkAccent),
             ),
           ),
         ),

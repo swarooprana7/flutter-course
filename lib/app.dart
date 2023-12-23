@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/ButtonTypes.dart';
 import 'package:flutter_application/container.dart';
 import 'package:flutter_application/custom_widget.dart';
 import 'package:flutter_application/stack_widget.dart';
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyContainer_App(),
+      home: Button_Types(),
     );
   }
 }
