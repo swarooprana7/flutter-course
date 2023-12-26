@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/ButtonTypes.dart';
-import 'package:flutter_application/container.dart';
-import 'package:flutter_application/custom_widget.dart';
-import 'package:flutter_application/stack_widget.dart';
+import 'package:flutter_application/splash_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Button_Types(),
+      home: SplashScreen(),
     );
   }
 }
